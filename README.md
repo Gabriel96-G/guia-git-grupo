@@ -10,7 +10,7 @@ Documento colaborativo del grupo ___
 
 ## Contenido
 
-<!-- Cada integrante agrega aquí la línea de su sección, en orden -->
+[1. Qué es el control de versiones](secciones/01-que-es.md)
 
 ## Cómo trabajamos
 
