@@ -13,3 +13,7 @@ Antes de comenzar a trabajar con Git es importante configurar la identidad de la
 ## 2.3 El ciclo de trabajo
 
 El ciclo básico de trabajo con Git comienza modificando uno o varios archivos del proyecto. Después se utiliza `git status` para revisar qué archivos cambiaron y conocer su estado. Con `git add` se seleccionan los cambios que se quieren incluir en el siguiente commit. Luego, `git commit -m "mensaje"` guarda esos cambios en el repositorio local junto con una descripción. Finalmente, `git push` envía los commits al repositorio remoto para que puedan ser vistos por los demás integrantes del equipo. Este proceso se repite durante el desarrollo para mantener un historial ordenado de los cambios.
+
+## 2.4 Consultar el historial
+
+Git permite consultar el historial de cambios realizados en un repositorio mediante el comando `git log`. Este comando muestra información como el identificador del commit, su autor, la fecha y el mensaje asociado. Cuando se desea una vista más compacta se puede utilizar `git log --oneline`, que presenta cada commit en una sola línea. Consultar el historial permite conocer cómo ha evolucionado un proyecto y quién realizó cada cambio. También es útil para localizar versiones anteriores y verificar que los commits realizados hayan quedado registrados correctamente.
