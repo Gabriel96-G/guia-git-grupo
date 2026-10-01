@@ -4,8 +4,8 @@ Documento colaborativo del grupo ___
 
 ## Integrantes
 
-- Integrante 1: Alejandro Medrano Ruiz — Sección 1
-- Integrante 2: Aylin — Sección 2
+- Integrante 1: Aylin — Sección 1
+- Integrante 2: Alejandro Medrano Ruiz — Sección 2
 - Integrante 3: Daniel — Sección 3
 
 ## Contenido
