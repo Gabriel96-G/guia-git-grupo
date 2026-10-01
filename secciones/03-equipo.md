@@ -24,3 +24,12 @@ Autor: Daniel García Monge
 - Se guarda el archivo y usamos git add para marcarlo como resuelto.  
 - Se ejecuta git commit para completar la unión.  
 - Se usa git push para compartir el resultado.
+
+## 3.4 Buenas prácticas de commits
+- Hacer commits que sean pequeños y frecuentes.
+- Agrupar en cada commit cambios del mismo tema en lugar de varios temas distintos de una vez.
+- Usar mensajes en presente que expliquen lo que se cambió.
+- Revisar los cambios con git status y git diff antes de confirmarlos.  
+Ejemplos: 
+Bueno: "Agrega la explicación de los conflictos"
+Malo: "cambio"
