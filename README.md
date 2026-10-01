@@ -11,6 +11,7 @@ Documento colaborativo del grupo ___
 ## Contenido
 
 [1. Qué es el control de versiones](secciones/01-que-es.md)
+[3. Trabajo en equipo con GitHub](secciones/03-equipo.md)
 
 ## Cómo trabajamos
 
