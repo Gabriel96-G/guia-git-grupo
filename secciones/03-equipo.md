@@ -15,3 +15,12 @@ Autor: Daniel García Monge
 - clone descarga una copia del repositorio.  
 - pull trae e integra los cambios que subieron los compañeros.  
 - push sube los commits al repositorio remoto.
+
+## 3.3 Conflictos
+- Un conflicto puede ocurrir cuando dos personas cambian las mismas líneas y Git no puede combinar los cambios automáticamente.
+- Al ejecutar git pull, Git puede detectar el conflicto y señalar el archivo afectado.  
+- Se abre el archivo y se revisan las dos versiones.
+- Se combina el contenido conservando los cambios necesarios de ambos.
+- Se guarda el archivo y usamos git add para marcarlo como resuelto.  
+- Se ejecuta git commit para completar la unión.  
+- Se usa git push para compartir el resultado.
