@@ -12,6 +12,7 @@ Este método es, en resumidas cuentas, uan forma de copiar la carpeta del proyec
 - Las copias ocupan mucho espacio.
 - Podemos confundirnos sobre cuál es la última versión.
 - Es difícil saber qué cambió entre las carpetas.
+- También podemos perder cambios al trabajar sobre una copia vieja.
 
 ## 1.3 Qué resuelve un sistema de control de versiones
 Lo principal que se resuelve con este tipo de sistema sería:
