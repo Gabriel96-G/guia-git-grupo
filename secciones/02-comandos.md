@@ -9,3 +9,7 @@ Git trabaja con tres zonas principales durante el control de los cambios. El dir
 ## 2.2 Configuración inicial
 
 Antes de comenzar a trabajar con Git es importante configurar la identidad de la persona que realizará los commits. Git utiliza un nombre y un correo electrónico para registrar quién hizo cada cambio dentro del historial del proyecto. Para configurar estos datos se utilizan los comandos `git config --global user.name` y `git config --global user.email`. Es recomendable utilizar el mismo correo asociado a la cuenta de GitHub para que los commits puedan relacionarse correctamente con el perfil. También se puede definir `main` como la rama principal mediante `git config --global init.defaultBranch main`. Finalmente, el comando `git config --global --list` permite revisar la configuración guardada.
+
+## 2.3 El ciclo de trabajo
+
+El ciclo básico de trabajo con Git comienza modificando uno o varios archivos del proyecto. Después se utiliza `git status` para revisar qué archivos cambiaron y conocer su estado. Con `git add` se seleccionan los cambios que se quieren incluir en el siguiente commit. Luego, `git commit -m "mensaje"` guarda esos cambios en el repositorio local junto con una descripción. Finalmente, `git push` envía los commits al repositorio remoto para que puedan ser vistos por los demás integrantes del equipo. Este proceso se repite durante el desarrollo para mantener un historial ordenado de los cambios.
